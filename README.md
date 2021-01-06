@@ -1,3 +1,12 @@
+Angular version of: https://medium.com/walmartglobaltech/infinite-scrolling-the-right-way-11b098a08815
+Also used: https://angularbites.com/intersection-observer-with-angular/
+
+Working simple viewport just as an example.
+
+In the end, not using this for complicated list items though it works well for simple use case that performs well. Material-UI has a viewport component for more complicated purposes. 
+
+note: the threshold values and debouncing will need to be tuned (checked to work for list items of desired height) or the intersection observer may not fire.
+
 # TestApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.7.
